@@ -20,12 +20,18 @@ namespace Bejcek_20221212
     /// </summary>
     public partial class MainWindow : Window
     {
-        Soldier Pepa;
-        Soldier Franta;
+        Soldier soldier1 = new Soldier("Pepa");
+        Soldier soldier2 = new Soldier("Franta");
         
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

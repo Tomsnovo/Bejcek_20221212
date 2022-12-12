@@ -15,14 +15,22 @@ namespace Bejcek_20221212
         public int Damage { get; set; }
         public int MaxShield { get; set; }
 
-        public Soldier(string name, int hp, )
+        public Soldier(string name)
         {
-
+            Name = name;
+            HP = 0;
+            MaxHP = 100;  
+            Shield = 100;
+            Damage = 20;
+            MaxShield = 100;
         }
 
-        public void Attack()
+        public void Attack(Soldier Enemy)
         {
+           if(Enemy.Shield <= 0)
+            {
 
+            }
         }
 
         public void Heal()

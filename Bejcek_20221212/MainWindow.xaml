@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="#333">
+        <TextBlock x:Name="txtblock1" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="400" Width="300"/>
+        <TextBlock x:Name="txtblock2" HorizontalAlignment="Left" Margin="490,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="400" Width="300"/>
+        <Button x:Name="btnswitch" Content="Switch" HorizontalAlignment="Center" Margin="0,39,0,0" VerticalAlignment="Top" Height="75" Width="100" Click="Button_Click"/>
+        <Button x:Name="btnheal" Content="Heal" HorizontalAlignment="Center" Margin="0,152,0,0" VerticalAlignment="Top" Height="75" Width="100" Click="Button_Click_1"/>
+        <Button x:Name="btnattack" Content="Attack" HorizontalAlignment="Left" Margin="348,256,0,0" VerticalAlignment="Top" Height="75" Width="100" Click="Button_Click"/>
 
     </Grid>
 </Window>
